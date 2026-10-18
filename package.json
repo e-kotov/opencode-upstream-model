@@ -1,0 +1,24 @@
+{
+  "name": "opencode-upstream-model",
+  "version": "0.2.0",
+  "private": true,
+  "description": "OpenCode 2 plugin: the model a gateway says actually answered, shown in the prompt footer",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/server.js",
+    "./server": "./src/server.js",
+    "./tui": "./src/tui.tsx",
+    "./rpc": "./src/rpc.mjs"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.mjs'"
+  },
+  "peerDependencies": {
+    "@opentui/solid": ">=0.5.17",
+    "solid-js": ">=1.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

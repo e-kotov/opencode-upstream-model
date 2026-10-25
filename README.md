@@ -3,6 +3,14 @@
 An OpenCode 2 plugin that shows the model a gateway says *actually* answered,
 in the prompt footer's status row:
 
+## Compatibility
+
+The `0.2.x` release line is for **OpenCode 2 only** and is tested against
+OpenCode 2.1.4 in CI. OpenCode 1 files are kept in `legacy/v1/` for reference
+and do not load in this release line.
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
 ```text
 ~/project    gpt-5.6-terra-mitarbeitende · vllm    2.6K (1%)  ctrl+p commands
 ```
